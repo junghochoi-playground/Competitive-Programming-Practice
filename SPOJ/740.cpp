@@ -9,8 +9,6 @@ vector<vector<int>> DP;
 vector<int> T;
 int solve(int lo, int hi, int a){
 
-
-    
     if (lo > hi) return 0;
     if (DP[lo][hi] != -1) return DP[lo][hi];
    
