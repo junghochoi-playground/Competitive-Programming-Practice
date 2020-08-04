@@ -18,7 +18,7 @@ int main(){
     }
 
     for (int i = 2; i <= N; i++){
-        for(int j = 1; j < i; j++){ 
+        for(int j = 1w; j < i; j++){ 
             // int add = (j != i-j) ? DP[j] + DP[i-j] : DP[j];
             // DP[i] += add;
             DP[i] += DP[j];
