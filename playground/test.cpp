@@ -2,5 +2,5 @@
 using namespace std;
 
 int main(){
-    cout << "hello world" << endl;
+    cout << min (2, 3, 4) << endl;
 }
